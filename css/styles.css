@@ -29,19 +29,24 @@ a {
 .header-nav {}
 
 .header-logo {
-    line-height: 21px;
-    line-height: 1.16667;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    color: #2e2f42;
+    font-weight: 700;
+        font-size: 18px;
+        line-height: 21px;
+        line-height: 1.17;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+        color: #4d5ae5;
+
 }
 
 .header-logo-web {
-    line-height: 21px;
-    line-height: 1.16667;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    color: #4d5ae5;
+    font-weight: 700;
+        font-size: 18px;
+        line-height: 21px;
+        line-height: 1.17;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+        color: #2e2f42;
 }
 
 .header-list {}
