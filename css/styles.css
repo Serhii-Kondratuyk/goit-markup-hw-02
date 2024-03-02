@@ -1,3 +1,85 @@
 body {
-    background-color: aqua;
+    font-family: "Roboto", sans-serif ;
+    color: #434455;
+    background-color: #FFFFFF;
 }
+
+ul {
+    list-style: none;
+}
+
+a { 
+    text-decoration: none;
+}
+
+header {
+    font-family: "Raleway", sans-serif;
+}
+
+.head {}
+
+.body {}
+
+.header {}
+
+.header-nav {}
+
+.header-logo {
+    font-size: 18px;
+    line-height: 1.16667;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--navy-blue);
+}
+
+.header-logo-web {
+    font-size: 18px;
+    line-height: 1.16667;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--iris);
+}
+
+.header-list {}
+
+.header-items {font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--navy-blue);}
+
+.header-link {}
+
+.address {}
+
+.address-list {}
+
+.address-mail {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--slate);
+}
+
+.address-tel {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--slate);
+}
+.hero {}
+
+.hero-text {
+    font-size: 56px;
+    line-height: 1.07143;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: var(--white);
+}
+
+.hero-btn {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: var(--white);
+}
+
