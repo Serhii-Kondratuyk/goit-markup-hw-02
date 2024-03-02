@@ -7,7 +7,9 @@ button {
     cursor: pointer;
     pointer-events: all;
 }
-
+address {
+    font-style: normal
+}
 ul {
     list-style: none;
 }
@@ -65,21 +67,35 @@ a {
 .address-list {}
 
 .address-mail {
-    line-height: 24px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px; 
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
 }
+
+.address-items-mail{}
+
+
+.address-items-tel{}
+
+
 
 .address-tel {
+    font-weight: 400;
+    font-size: 16px;
     line-height: 24px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
 }
-.hero {}
+.hero {
+    background-color:#2e2f42 
+}
 
 .hero-text {
+    font-size: 56px
     line-height: 60px;
     line-height: 1.07;
     letter-spacing: 0.02em;
@@ -88,10 +104,14 @@ a {
 }
 
 .hero-btn {
+    letter-spacing: 0.04em
+    font-size: 16px
+    font-weight:500
+    background-color: #4D5AE5
     line-height: 24px;
     line-height: 1.5;
     letter-spacing: 0.04em;
-    color: #fff;
+    color: #fff
 }
 
 .skills {}
