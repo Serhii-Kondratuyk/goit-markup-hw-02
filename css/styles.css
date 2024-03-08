@@ -8,7 +8,7 @@ button {
     pointer-events: all;
 }
 address {
-    font-style: normal
+    font-style: normal;
 }
 ul {
     list-style: none;
@@ -93,19 +93,14 @@ a {
 
 
 .address-tel {
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 24px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #434455;
+
 }
 .hero {
-    background-color:#2e2f42 
+    background-color:#2e2f42 ;
 }
 
 .hero-text {
-    font-size: 56px
+    font-size: 56px;
     line-height: 60px;
     line-height: 1.07;
     letter-spacing: 0.02em;
@@ -114,19 +109,25 @@ a {
 }
 
 .hero-btn {
-    letter-spacing: 0.04em
-    font-size: 16px
-    font-weight:500
-    background-color: #4D5AE5
+    letter-spacing: 0.04em ;
+    font-size: 16px;
+    font-weight:500;
+    background-color: #4D5AE5;
     line-height: 24px;
     line-height: 1.5;
     letter-spacing: 0.04em;
-    color: #fff
+    color: #fff;
 }
 
 .skills {}
 
-.skills-title {}
+.skills-title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
 
 .skills-paragraf-nw {}
 
@@ -135,17 +136,22 @@ a {
 .skills-items {}
 
 .skills-txt {
-    line-height: 24px;
+    font-weight: 500;
+    font-size: 20px;    
+    line-height: 24px; 
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
 }
 
 .skills-paragraf {
-    line-height: 24px;
+    font-weight: 400;
+    font-size: 16px;    
+    line-height: 24px; 
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
+    
 }
 
 .team {
@@ -155,11 +161,19 @@ a {
     text-transform: capitalize;
     text-align: center;
     color: #2e2f42;
+    background-color: #F4F4FD;
+    font-size: 36px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    
 }
 
 .team-list {}
 
-.team-items {}
+.team-items {
+    background-color: #FFFFFF;
+}
 
 .team-images {}
 
@@ -180,12 +194,13 @@ a {
 }
 
 .portfolio {
-    line-height: 40px;
-    line-height: 1.11111;
+    line-height: 40px;    
     letter-spacing: 0.02em;
     text-transform: capitalize;
     text-align: center;
     color: #2e2f42;
+    font-size: 36px;
+    line-height: 1.11
 }
 
 .portfolio-list {}
