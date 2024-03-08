@@ -32,7 +32,7 @@ a {
 }
 
 .header-nav {
-    display: flex;}
+     }
 
 .header-logo {
     font-weight: 700;
@@ -57,7 +57,7 @@ a {
         color: #2e2f42;
 }
 
-.header-list {display: flex;}
+.header-list { }
 
 .header-items {
 
@@ -74,7 +74,7 @@ a {
 
 .address {}
 
-.address-list {display: flex;}
+.address-list { }
 
 .address-mail {
     font-weight: 400;
