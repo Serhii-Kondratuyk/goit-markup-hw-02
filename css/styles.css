@@ -153,19 +153,22 @@ a {
     color: #434455;
     
 }
+.team-section {
+    background-color: #F4F4FD;
 
+    
+}
 .team {
     line-height: 40px;
     line-height: 1.11;
     letter-spacing: 0.02em;
     text-transform: capitalize;
     text-align: center;
-    color: #2e2f42;
-    background-color: #F4F4FD;
-    font-size: 36px;
-    font-weight: 500;
-    font-size: 20px;
+    color: #2e2f42;  
+    font-weight: 500;    
     line-height: 1.2;
+    font-size: 36px;
+    
     
     
 }
