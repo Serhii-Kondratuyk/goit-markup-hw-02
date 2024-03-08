@@ -18,6 +18,7 @@ a {
     text-decoration: none;
 }
 
+/* ================ HEADER ================= */
 .header {
     font-family: "Raleway", sans-serif;
 }
@@ -26,9 +27,12 @@ a {
 
 .body {}
 
-.header {}
+.header {
+  
+}
 
-.header-nav {}
+.header-nav {
+    display: flex;}
 
 .header-logo {
     font-weight: 700;
@@ -38,6 +42,8 @@ a {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
+    
+
 
 }
 
@@ -51,7 +57,7 @@ a {
         color: #2e2f42;
 }
 
-.header-list {}
+.header-list {display: flex;}
 
 .header-items {
 
@@ -68,7 +74,7 @@ a {
 
 .address {}
 
-.address-list {}
+.address-list {display: flex;}
 
 .address-mail {
     font-weight: 400;
