@@ -210,11 +210,13 @@ a {
 
 .portfolio-images {}
 
-.portfolio-title {
-    line-height: 24px;
-    line-height: 1.2;
+.portfolio-title {    
     letter-spacing: 0.02em;
     color: #2e2f42;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    
 }
 
 .portfolio-paragraf {
@@ -231,13 +233,12 @@ a {
 .footer-link {
     line-height: 21px;    
     letter-spacing: 0.03em;
-    text-transform: uppercase;
-    color: #f4f4fd;
+    text-transform: uppercase;    
     font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
     line-height: 1.17;
-    /* color:#4d5ae5; */
+    color:#4d5ae5;
 }
 
 .footer-paragraf {
@@ -251,6 +252,6 @@ a {
     line-height: 21px;
     line-height: 1.16667;
     letter-spacing: 0.03em;
-    text-transform: uppercase;
-    color: #4d5ae5;
+    text-transform: uppercase;    
+    color: #f4f4fd;
 }
